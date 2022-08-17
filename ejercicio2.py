@@ -4,5 +4,5 @@ cadena = "Desarrollo de Software: Desarrollo \n"
 print(cadena)
 
 print(f"-{cadena[0:10]}- las veces que se repite esta palabra son:  {cadena.count('Desarrollo')}\n")
-
+print(f"-{cadena[11:13]}- las veces que se repite esta palabra son:  {cadena.count('de')}\n")
 
