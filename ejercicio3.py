@@ -10,3 +10,6 @@ while(terminar):
         terminar = False
 print(listauno)
 listados=listauno
+listados.sort()
+listados.reverse()
+print(listados)
