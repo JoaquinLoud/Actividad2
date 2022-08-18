@@ -7,3 +7,6 @@ while(terminar):
     listauno.append([nombre, apellido, edad])
     t = input("Desea terminar S/N")
     if(t == "n"):
+        terminar = False
+print(listauno)
+listados=listauno
