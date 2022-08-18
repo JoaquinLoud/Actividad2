@@ -9,7 +9,6 @@ while(terminar):
      if(t == "n"):
       terminar = False
 print(listauno)
-listados=listauno
-listados.sort()
+listados=([nombre,apellido,edad])
 listados.reverse()
 print(listados)
